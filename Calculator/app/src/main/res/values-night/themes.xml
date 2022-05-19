@@ -1,0 +1,33 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Calculator" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_200</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/night_edit_background</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="digitButtons">
+        <item name="backgroundTint">@color/night_number_color</item>
+    </style>
+    <style name="operatorButton">
+        <item name="backgroundTint">@color/night_operator_color</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="backButton">
+        <item name="android:src">@drawable/ic_night_back</item>
+        <item name="android:background">@drawable/back_btn_background</item>
+    </style>
+    <style name="editTextStyle">
+        <item name="android:background">@drawable/night_edittext_background</item>
+    </style>
+    <style name="secondaryEditText">
+        <item name="android:textColor">@color/night_secondary_edit_text</item>
+    </style>
+</resources>

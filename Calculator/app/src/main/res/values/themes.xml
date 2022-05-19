@@ -1,0 +1,36 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Calculator" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/light_edit_background</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="ShapeAppearanceOverlay.App.rounded" parent="">
+        <item name="cornerSize">50%</item>
+    </style>
+    <style name="digitButtons">
+        <item name="backgroundTint">@color/number_button_color</item>
+    </style>
+    <style name="operatorButton">
+        <item name="backgroundTint">@color/operator_button_color</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="backButton">
+        <item name="android:src">@drawable/ic_back</item>
+        <item name="android:background">@drawable/back_btn_light_background</item>
+    </style>
+    <style name="editTextStyle">
+        <item name="android:background">@drawable/light_eidttext_background</item>
+    </style>
+    <style name="secondaryEditText">
+        <item name="android:textColor">@color/light_secondary_edit_text</item>
+    </style>
+</resources>

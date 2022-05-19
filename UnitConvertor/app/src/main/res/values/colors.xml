@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="app_gradient_start">#7ee8fa</color>
+    <color name="app_gradient_end">#eec0c6</color>
+    <color name="box_stroke_color">#1E53EA</color>
+    <color name="box_stroke_error_color">#D01B1B</color>
+    <color name="hint_text_color">#055A94</color>
+    <color name="button_gradient_start">#67B26F</color>
+    <color name="button_gradient_end">#4ca2cd</color>
+    <color name="light_background">#E1E8EE</color>
+    <color name="dark_background">#191921</color>
+    <color name="dark_light_color">#2B2D31</color>
+    <color name="dark_shadow_color">#101216</color>
+    <color name="ic_launcher_background">#a3a2a2</color>
+</resources>

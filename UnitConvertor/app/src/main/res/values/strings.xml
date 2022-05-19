@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Unit Convertor</string>
+    <string-array name="unitTypes">
+        <item>Length</item>
+        <item>Area</item>
+    </string-array>
+</resources>
